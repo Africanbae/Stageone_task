@@ -1,0 +1,35 @@
+.footer{
+    margin: 100px auto 0;
+    width: 90%;
+    border-top: 1px solid #94a4c4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 0;
+}
+ 
+.footer p{
+    color: #a4acbd;
+}
+ 
+@media screen and (max-width: 450px) {
+    .footer{
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer img.zuri{
+        width: 38vw;
+        height: auto;
+    }
+
+    .footer img.ingressive{
+        width: 30vw; 
+        height: auto;
+    }
+
+    .footer p{
+        font-size: 14px;
+    }
+}
