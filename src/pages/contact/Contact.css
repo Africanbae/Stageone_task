@@ -1,0 +1,77 @@
+.contact-page label {
+    display: block;
+    margin: 30px 0 10px 0;
+}
+.contact-page {
+    width:70%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.contact-page h1 {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+button {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    height: 50px;
+    font-weight: 600px;
+    font-size: 16px;
+    padding: 10px;
+    background: #1570EF;
+}
+.names div {
+    width: 48%;
+}
+.input-fields .names {
+    display: flex;
+    justify-content: space-between;
+}
+.input-fields p {
+    color: #f89687;
+    margin-top: 5px;
+}
+.input-fields input, textarea {
+    padding: 8px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #e7ebf0;
+    border-radius: 10px;
+
+}
+.checkbox {
+    border: 1px solid #e7ebf0;
+}
+.agree {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px 0 25px 0;
+}
+.agree p {
+    margin-left: 15px;
+}
+input:focus-visible, textarea:focus-visible {
+    outline: 1px solid #84CAFF;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border: 1px solid #84CAFF;
+}
+input.error, textarea.error {
+    border: 1px solid #ee9c8f;
+    box-shadow:0px 1px 2px rgba(16, 24, 40, 0.05);  ;
+}
+@media screen and (max-width:450px){
+    .contact-page{
+        width: 90%;
+    }
+    .input-fields .names {
+        flex-direction: column;
+    }
+    .names div {
+        width: 100%;
+    }
+}

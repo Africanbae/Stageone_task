@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="input-fields">
           <div className="names">
             <div>
-              <label for="first_name">First name</label>
+              <label HtmlFor="first_name">First name</label>
               <input
                 id="first_name"
                 type="text"
@@ -19,7 +19,7 @@ const Contact = () => {
               />
             </div>
             <div>
-              <label for="last_name">Last name</label>
+              <label HtmlFor="last_name">Last name</label>
               <input
                 id="last_name"
                 type="text"
@@ -28,25 +28,25 @@ const Contact = () => {
             </div>
           </div>
           <div>
-            <label for="email">Email</label>
+            <label htmlFor="email">Email</label>
             <input id="email" type="email" placeholder="yourname@email.com" />
           </div>
           <div>
-            <label for="message">Message</label>
+            <label htmlFor="message">Message</label>
             <textarea placeholder="Send me a message and I'll reply you as soon as possible..." />
           </div>
         </div>
-        <div>
+        <div className="agree">
           <input type="checkbox" className="checkbox" />
           <p>
             You agree to providing your data to Adeleye Opeyemi who may contact
             you.
           </p>
         </div>
+        <button type="submit" id="btn__submit">
+          Send message
+        </button>
       </div>
-      <button type="submit" id="btn__submit">
-        Send message
-      </button>
       <Footer />
     </>
   );
