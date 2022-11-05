@@ -32,6 +32,12 @@ const links = [
     url: "https://books.zuri.team/design-rules",
     id: "book__design",
   },
+  {
+    title: "Contact Me",
+    subtext: "(Contact)",
+    url: "/contact",
+    id: "book__design",
+  },
 ];
 
 const Links = () => {
